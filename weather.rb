@@ -1,8 +1,12 @@
+#Daniel Stankiewicz
+#MPCS52553 Winter 2014
+#Homework week 2
+
 require 'open-uri'
 require 'json'
 
 #Prompt the user for address and replace all spaces with '+'
-print "Enter an address, city, or zip code: "
+print "Please enter an address: "
 address = gets.chomp.gsub(" ","+")
 
 #Submit query to google map api, parse the JSON data, and store it in 'data_address'

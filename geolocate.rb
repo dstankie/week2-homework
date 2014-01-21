@@ -1,3 +1,7 @@
+#Daniel Stankiewicz
+#MPCS52553 Winter 2014
+#Homework week 2
+ 
 require 'open-uri'
 require 'json'
 

@@ -1,10 +1,14 @@
+#Daniel Stankiewicz
+#MPCS52553 Winter 2014
+#Homework week 2
+
 require 'open-uri'
 require 'json'
 
 #Prompt for origin and destination
-print "Enter an address, city, or zip code: "
+print "Enter an origin address: "
 orig = gets.chomp.gsub(" ","+")
-print "Enter an address, city, or zip code: "
+print "Enter a destination address: "
 dest = gets.chomp.gsub(" ","+")
 
 #Submit request to google directions api and parse results
